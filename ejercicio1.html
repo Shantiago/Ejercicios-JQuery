@@ -2,11 +2,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <LINK REL=StyleSheet HREF="Styles/style.css" TYPE="text/css" MEDIA=screen>
+    <link rel="stylesheet" href="Styles/ejercicio1.css">
     <title>jQuery|Ej1</title>
 </head>
 <body>
-    <h1>Ejercicio 1</h1>
+    <nav class="navegation">
+        <ul class="list_inline">
+
+            <h3 class="title">CARACTER TEXTO O NUMERO</h3>
+        </ul>
+
+    </nav>
+
+    <div class="container">
+
+        <div class="text_box">
+            <textarea  name="message" onkeyup="countChars(this);" id="text" cols="30" rows="3"></textarea>
+        </div>
+
+        <div class="button_add">
+            <button  id="button_add">Revisarr</button>
+        </div>
+
+
+        <div>
+            <p class="txtVista" id="character_num"> TIPO: </p>
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/ejercicio1.js"></script>
     
 </body>
 </html>

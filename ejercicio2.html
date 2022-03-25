@@ -1,11 +1,49 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <LINK REL=StyleSheet HREF="Styles/style.css" TYPE="text/css" MEDIA=screen>
-    <title>jQuery|Ej2</title>
+    <title>ejercicio 3</title>
+    <link rel="stylesheet" href="Styles/ejercicio2.css">
 </head>
+
 <body>
-    <h1>Ejercicio 2</h1>
+
+  
+    
+    
+    <nav class="navegation">
+        <ul class="list_inline">
+
+            <h2 class="title">Averigua si eres mayor de edad</h2>
+        </ul>
+
+    </nav>
+
+    <div class="container">
+
+        <div class="text_box">
+            <h3 class="title">Nombre</h3>
+            <textarea  name="message" onkeyup="countName(this);" id="text" cols="30" rows="3"></textarea>
+        </div>
+
+        <div class="text_box">
+            <h3 class="title">Edad</h3>
+            <textarea  name="message" onkeyup="countChars(this);" id="text" cols="30" rows="3"></textarea>
+        </div>
+
+        <div class="button_add">
+            <button  onclick="press(this)" id="button_add">Revisar</button>
+        </div>
+
+
+        <div>
+            <p class="txtVista" id="character_num"> Resultado </p>
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/ejercicio2.js"></script>
 </body>
+
+
 </html>
